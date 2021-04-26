@@ -19,6 +19,24 @@
     background-color:floralwhite;
 }
 
+section {
+    position: relative;
+    padding-top: 100px;
+    max-width: 85%;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+}
+
+p {
+    font-size: 2.5em;
+    0px 10px;
+}
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
 .icon{
     height: 30px;
     width: auto;
@@ -30,6 +48,11 @@
     background-color: #333;
     overflow: hidden;
     padding: 0px 100px;
+    /*
+    position:fixed;
+    top: 0;
+    z-index: 999;
+    */
 }
 
 .t-nav a {
@@ -82,14 +105,6 @@
     top: 8%;
 }
 
-.hero {
-    position: relative;
-    padding-top: 100px;
-    max-width: 85%;
-    margin: 0px auto;
-    align-items: center;
-    display: flex;
-}
 .hero-text {
     max-width: 50%;
     padding-right: 30px;
@@ -98,6 +113,7 @@
     font-size: 4em;
     margin-bottom: 30px;
     margin-top: 0;
+    margin-left: 10px;
     font-family: monospace;
 }
 .hero-text p {
@@ -109,4 +125,52 @@
     width: 100%
 }
 
+.work {
+    display:block;
+}
+.work-repr {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    margin-bottom: 50px;
+}
 
+.htw-repr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/htw%20representative.PNG");
+}
+.nydiod-repr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/nydiod%20representative.PNG");
+}
+.tnt-repr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/tnt%20representative.PNG");
+}
+.misc-repr {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/chair%20with%20background.png");
+}
+
+.work-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+.work-text p{
+    margin: 0px;
+}
+.nydiod-repr-text .misc-repr-text{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+@media only screen and (max-width: 1300px) {
+    section {
+        display: block;
+    }
+    .hero-text {
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+}
