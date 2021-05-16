@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Hugo Mautner | Portfolio</title>
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="shortcut icon" href="images/sticker%20pink.ico">
+        <meta charset="utf-8">
+    </head>
+    <body id="body">
+
+        <div class="t-nav">
+            <div class="dropdown">
+                <a class="dropbtn internal" href="index.html">
+                    <span>Work</span>
+                </a>
+                <div class="dropdown-content">
+                    <a href="hugibertsTImeWarp.html">Hugibert's Time Warp</a>
+                    <a href="nydiod.html">Nydiod</a>
+                    <a href="theNorthernTunnels.html">The Northern Tunnels</a>
+                    <a href="miscellaneous.html">Miscellaneous</a>
+                </div>
+            </div>
+            <a class="internal" href="about.html">
+                <span>About</span>
+            </a>
+            <a class="external" href="https://www.youtube.com/channel/UCt25-xvZ9MEpLXjP4zKJk7Q" target="_blank" rel="noopener" aria-label="Youtube">
+                <img class="icon" src="images/youtube.png" alt="Youtube logo">
+            </a>
+            <a class="external" href="https://twitter.com/MautnerHugo" target="_blank" rel="noopener" aria-label="Twitter">
+                <img class="icon" src="images/twitter.png" alt="Twitter logo">
+            </a>
+            <a class="external" href="https://www.linkedin.com/in/hugo-mautner-28864620a/" target="_blank" rel="noopener" aria-label="Linkedin">
+                <img class="icon" src="images/linkedin.png" alt="Linkedin logo">
+            </a>
+        </div>
+        
+        <! --Description-->
+        <section>
+            <div>
+                <h1 class="external">2020/21</h1>
+                <h1 class="hero-text-title">
+                    <span class="text-wrapper">
+                        <span class="letters">Hugibert's Time Warp</span>
+                    </span>
+                </h1>
+                <p class="hero-text-p">
+                    My latest project, and undeniably the most serious project i've taken part in. I acted "chairman" and organized team meetups and scrum. Most of the time i was implementing assets into the game engine, and scripting animations, input and audio implementation. 
+                </p>
+            </div>
+        </section>
+
+        <! --HTW intro-->
+        <section class="game-section">
+            <img src="images/HTW%20hero%20pic.PNG" alt="Hugibert's Time Warp main menu" class="center">
+            <div class="game-text center">
+                <h1>The game</h1>
+                <p>Hugibert’s Time Warp is a top down roguelike game set in a large factory with rooms and floors to conquer and explore. The main character is a Scottish farmer [Hugibert Pain McFinnigan] from a medieval village [Tullich]. He is thrown into a modern day factory setting, making the theme a unique clash between two different eras and styles.</p>
+            </div>
+        </section>
+
+        <! --Unity-->
+        <section class="game-prod">
+            <div class="game-text side-text left-text">
+                <h1>Unity</h1>
+                <p>In making Hugibert's Time Warp I was fortunate enough to learn many elements of the game engine unity. Together with prior knowledge and simultaneous learning of C#, my main role in this project became coding a lot of parts for the game, such as player input, scene and audio-management, animation control.</p>
+            </div>
+            <div class="game-images">
+                <img src="images/unity.PNG" alt="unity" >
+            </div>
+        </section>
+
+        <! --Animations-->
+        <section class="game-prod">
+            <div class="game-images">
+                <img src="images/screw%20animator.PNG" alt="screw animator" class="center">
+                <img src="images/screw%20jumping.PNG" alt="screw attacking" id="screw-attacking" class="center">
+            </div>
+            <div class="game-text side-text">
+                <h1>Animations</h1>
+                <p>Thoughtfully put together animator layers with blend trees was used for controlling each of the game's characters animations. Unity's ability to set script's variables thorughout the animations playback made me able to set up callback methods for actions such as attacks, movement etc.</p>
+            </div>
+        </section>
+
+        <! --Audio system-->
+        <section class="game-prod">
+            <div class="game-text side-text left-text">
+                <h1>Audio system</h1>
+                <p>I also made the sound effects for the game, and took care of how the audio should be controlled through scripts.</p>
+            </div>
+            <div class="game-images">
+                <img src="images/audacity.PNG" alt="audacity" class="whorry">
+                <img src="images/audiomanager.PNG" alt="audio manager" class="whorry">
+                <img src="images/audio%20mixer.PNG" alt="audio mixer" id="mixer-img">
+            </div>
+        </section>
+        
+        <! --Trailer-->
+        <section class="game-prod">
+            <div class="game-images">
+                <video width="100%" controls>
+                    <source src="videos/Trailer%20For%20Hugibert's%20Time%20Warp.mp4" type="video/mp4">
+                    Your browser does not support the video element.
+                </video>
+            </div>
+            <div class="game-text side-text">
+                <h1>Game Trailer</h1>
+                <p>The trailer for Hugibert's Time Warp. I was there when it was shot.</p>
+            </div>
+        </section>
+
+        <div class="scrollDiv">
+            <a href ="#top" class="button" id="scrollToTop">^</a>
+        </div>
+
+        <footer class="footer">
+            <p class="footer-text">Hugo Mautner - Portfolio</p>
+            <a href="hugibertsTImeWarp.html">Hugibert's Time Warp</a>
+            <a href="nydiod.html">Nydiod</a>
+            <a href="theNorthernTunnels.html">The Northern Tunnels</a>
+            <a href="miscellaneous.html">Miscellaneous</a>
+            <a href="about.html">About</a>
+        </footer>
+
+    </body>  <! --body ends here-->
+</html>
